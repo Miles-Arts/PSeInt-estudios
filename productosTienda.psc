@@ -14,7 +14,7 @@ Algoritmo productosTienda
 		
 		totalPagar =  cantidadCompra - productoDescuento;
 		
-		Imprimir "Ha comprando la cantidad de $", cantidadCompra " obtiene un descuento de 15% de $" , productoDescuento , " total a pagar $" totalPagar ;
+		Imprimir "Ha comprando la cantidad de $", cantidadCompra , " obtiene un descuento de 15% de $" , productoDescuento , " total a pagar $" , totalPagar ;
 		
 	SiNo
 		
@@ -22,7 +22,7 @@ Algoritmo productosTienda
 		
 		totalPagar =  cantidadCompra - productoDescuento;
 		
-		Imprimir "Ha comprando la cantidad de $", cantidadCompra " obtiene un descuento de 10% de $" , productoDescuento , " total a pagar $" totalPagar ;
+		Imprimir "Ha comprando la cantidad de $", cantidadCompra , " obtiene un descuento de 10% de $" , productoDescuento , " total a pagar $" , totalPagar ;
 	
 	FinSi
 	
