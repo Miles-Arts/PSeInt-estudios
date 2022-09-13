@@ -6,4 +6,5 @@ Algoritmo FuncMate
 	Escribir Azar(11) * 10;
 	Escribir 2 + 3 ^ 2 * 5;
 	
+	
 FinAlgoritmo
