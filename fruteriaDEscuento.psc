@@ -1,34 +1,38 @@
 Algoritmo fruteriaDEscuento
 	
-	Definir numeroKilos, descuento, precioManzana Como Real;
+	Definir  descuento, precioManzana, precioManzanaKilo Como Real;
+	Definir numeroKilos Como Entero;
 	
-	Imprimir "Ingrese la cantidd de kilos: ";
+	Imprimir "El kilo de manzanas cuesta $7";
+	Imprimir Sin Saltar "Ingrese la cantidd de kilos: ";
 	leer numeroKilos;
 	
-	precioManzana = 6.599;
+	precioManzanaKilo = 7;
 	
-	si numeroKilos > 0 & numeroKilos < 2  Entonces
+	si numeroKilos > 0 & numeroKilos <= 2  Entonces
 		
-		descuento = (precioManzana * numeroKilos) * 0.0;
-		
+		descuento = (precioManzanaKilo * numeroKilos); //* 0.0;
 		Imprimir "El precio a pagar por las manzanas es de: " , descuento  ;
 		
 	SiNo
-		si numeroKilos > 2 & numeroKilos < 5 Entonces
+		si numeroKilos > 2 & numeroKilos <= 5 Entonces
 			
-			descuento = numeroKilos * 0.10;
+			precioManzana = numeroKilos * precioManzanaKilo;
+			
+			descuento =  precioManzana * 0.10;
+			
 			Imprimir "El precio a pagar por las manzanas es de: " , descuento  ;
 			
 		SiNo
-			si numeroKilos > 5 & numeroKilos < 10 Entonces
+			si numeroKilos > 5 & numeroKilos <= 10 Entonces
 				
-				descuento = numeroKilos * 0.15;
+				descuento = (precioManzanaKilo * numeroKilos)  * 0.15;
 				Imprimir "El precio a pagar por las manzanas es de: " , descuento  ;
 				
 			SiNo
-				si numeroKilos > 10 & numeroKilos < 100 Entonces
+				si numeroKilos > 10 & numeroKilos <= 100 Entonces
 					
-					descuento = numeroKilos * 0.20;
+					descuento = (precioManzanaKilo * numeroKilos) * 0.20;
 					Imprimir "El precio a pagar por las manzanas es de: " , descuento  ;
 					
 				FinSi	
