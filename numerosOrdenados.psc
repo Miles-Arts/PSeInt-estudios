@@ -1,0 +1,5 @@
+Algoritmo numerosOrdenados
+	
+	
+	
+FinAlgoritmo
