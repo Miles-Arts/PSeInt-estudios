@@ -3,7 +3,7 @@ Algoritmo fruteriaVentaManzanas
 	Definir kiloGramos, descuento, precioCompra, totalCompra, precioDescuento Como Real;
 	
 	Imprimir "Escirbir el número de Kilos";
-	Leer kilosGramos;
+	Leer kiloGramos;
 	
 	Imprimir "Ingrese el precio por Kilo";
 	Leer precioCompra;
@@ -22,7 +22,7 @@ Algoritmo fruteriaVentaManzanas
 			FinSi
 		FinSi
 		
-		precioDescuento = (kiloGramos * precioCompra * descuento);
+	precioDescuento = (kiloGramos * precioCompra * descuento);
 	totalCompra = (kiloGramos * precioCompra) - precioDescuento; 
 	
 	Imprimir "Usted pagará $" , totalCompra , " por las manzanas";

@@ -24,7 +24,6 @@ Algoritmo fruteriaDEscuento
 	FinSi
 	
 	precioManzanaKilo = 7;
-	precioManzana = numeroKilos * precioManzanaKilo;
 	descuento =  precioManzana * 0.10;
 	Imprimir "El precio a pagar por las manzanas es de: " , descuento  ;
 	
