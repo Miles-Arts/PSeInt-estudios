@@ -1,22 +1,25 @@
-Algoritmo NumerosPositivos
+Algoritmo numerosPositivosTeclado
 	
-	Definir a, numero1, numero2 Como Entero;
+	Definir numero1, numero2, i Como real;
 	
-	Imprimir Sin Saltar "Ingrese un numero: ";
-	Leer numero1;
-	Imprimir Sin Saltar "Ingrese un numero: ";
-	Leer numero2;
-
-	a = numero1;
-	a = numero2;
+	Imprimir "Número positivo o negativo";
 	
-	si a > 0 Entonces
-
-		Imprimir "Los numeros " , numero1 , " y ", numero2, " son positivos";
+	numero1 = 0;
+	
+	Mientras numero1 >= 0 & numero1 <= 30 Hacer
 		
-	SiNo
-		Imprimir "Los numeros " , numero1 , " y ", numero2, " son negativos";
+		Imprimir Sin Saltar"Ingrese numero: ";
+		Leer numero1;
+		//numero1 = numero1 + 1;
+		Imprimir "El " , numero1 , " es positivo";
 		
-	FinSi
+	FinMientras
+	
+	//Mientras numero1 <= 0 & numero1 <= -5 Hacer
+		
+		//Imprimir Sin Saltar "Es negativo";
+		
+		//numero1 = numero1 - 1;
+	//FinMientras
 	
 FinAlgoritmo

@@ -1,23 +1,26 @@
-Algoritmo multiplosTres
+Algoritmo numerosPositivos
 	
-	definir numero1, numeroTotal, i Como Entero;
+	Definir numero1, numero2, i Como real;
 	
-	i = 3;
-	numeroTotal = 0;
-	
-	Imprimir "Ingrese el número";
+	Imprimir "Número positivo o negativo";
+	Imprimir Sin Saltar"Ingrese numero: ";
 	Leer numero1;
 	
-	mientras i <= numero1 Hacer
+	
+	numero1 = 1;
+	
+	Mientras numero1 >= 0 & numero1 <= 30 Hacer
 		
-		si i mod 3 = 0 Entonces
-			Imprimir i;
-			numeroTotal = numeroTotal + 1;
-		FinSi
+		Imprimir Sin Saltar"Ingrese numero: ";
+		Leer numero1;
+		//numero1 = numero1 + 1;
+		Imprimir "El " , numero1 , " es positivo";
 		
-		i = i + 1;
+		//numero1 = numero1 + 1;
 		
 	FinMientras
-	Imprimir "Multiplo de 3 es: " , numeroTotal;
+	
+	
+	
 	
 FinAlgoritmo
