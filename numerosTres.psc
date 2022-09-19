@@ -7,10 +7,11 @@ Algoritmo numerosTres
 	
 	
 	
-	si numero1 >= 3 & numero1 <= 9 Entonces
+	si numero1 <= 30 & numero1 >= 3 Entonces
+		
 		Imprimir " Los numeros ";
 		
-		Mientras numero1 <= 30 Hacer
+		Mientras numero1 <= 3 Hacer
 			
 			Imprimir " " , numero1;
 			numero1 = numero1 + 3;
